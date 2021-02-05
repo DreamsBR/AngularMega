@@ -1,12 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-contador',
+  templateUrl: './contador.component.html',
+  styleUrls: ['./contador.component.css']
 })
+export class ContadorComponent implements OnInit {
 
-export class AppComponent {
+  constructor() { }
+
+  ngOnInit(): void {
+  }
   public title:string = 'angularMega';
   base: number = 5;
 
@@ -32,5 +36,3 @@ export class AppComponent {
   }
 
 }
-
-

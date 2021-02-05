@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "angularMega"
+  "defaultProject": "angularMega",
+  "cli": {
+    "analytics": "0a19bfdd-f52b-44e7-9e70-5c6aec4a323a"
+  }
 }
