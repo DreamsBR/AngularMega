@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 interface Personajes{
   nombre : string;
@@ -11,6 +11,7 @@ interface Personajes{
   templateUrl: './main-page.component.html',
 })
 export class MainPageComponent  {
+  
   personajes : Personajes[] = [
     {
       nombre : 'Goku SJ3',
