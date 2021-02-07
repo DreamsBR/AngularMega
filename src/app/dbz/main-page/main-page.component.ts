@@ -11,7 +11,7 @@ interface Personajes{
   templateUrl: './main-page.component.html',
 })
 export class MainPageComponent  {
-  
+
   personajes : Personajes[] = [
     {
       nombre : 'Goku SJ3',
@@ -37,7 +37,7 @@ export class MainPageComponent  {
   }
 
 
-  
+
   agregar (){
     if (this.nuevo.nombre.trim().length === 0){
       return ;
@@ -47,9 +47,11 @@ export class MainPageComponent  {
       nombre : '',
       poder : 0
     }
-    
+
     console.table(this.personajes)
   }
+
+
 
   cambiarNombre(event : any){
     console.log(event.target.value)
